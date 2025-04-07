@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import io
 from PIL import Image
-
+from navbar import navigation
 st.title("Ancient Language Translation Tool")
 
 uploaded_image = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
